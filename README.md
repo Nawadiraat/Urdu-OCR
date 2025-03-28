@@ -37,7 +37,7 @@ pip install -r requirements.txt
 Use the following command to extract text from an Urdu script image:
 
 ```bash
-python test.py --image_path test_images/3.jpg --lang nawadraat_urdu
+python main.py --image_path test_images/3.jpg --lang nawadraat_urdu
 ```
 
 Parameters:
@@ -74,7 +74,7 @@ Here's a comparison of text extraction results between the default Tesseract Urd
 
 Default Tesseract Model (`urd`):
 ```text
-[Content from output/images/1_urdu_default.txt]
+[Content from output_images/1_urdu_default.txt]
 ```
 
 Our Improved Model (`nawadraat_urdu`):
